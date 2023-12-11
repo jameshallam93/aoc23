@@ -1,5 +1,5 @@
 def get_input():
-    with open("two.txt", "r") as f:
+    with open("2.txt", "r") as f:
         return [
             l.replace("Game", "").replace("\n", "").split(":") for l in f.readlines()
         ]

@@ -4,7 +4,7 @@ CARD_STRENGTHS = ["J", "2", "3", "4", "5", "6", "7", "8", "9", "T", "Q", "K", "A
 
 
 def get_input():
-    with open("seven.txt", "r") as f:
+    with open("7.txt", "r") as f:
         return [
             {f.strip().split(" ")[0]: f.strip().split(" ")[1]} for f in f.readlines()
         ]

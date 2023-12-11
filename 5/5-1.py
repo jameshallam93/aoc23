@@ -1,5 +1,5 @@
 def get_input():
-    with open("five.txt", "r") as f:
+    with open("5.txt", "r") as f:
         return f.readlines()
 
 

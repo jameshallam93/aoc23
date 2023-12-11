@@ -1,5 +1,5 @@
 def get_input():
-    with open("nine.txt", "r") as f:
+    with open("9.txt", "r") as f:
         return f.read().splitlines()
 
 

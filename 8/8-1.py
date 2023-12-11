@@ -2,7 +2,7 @@ ENUM = {"L": 0, "R": 1}
 
 
 def get_input():
-    with open("eight.txt", "r") as f:
+    with open("8.txt", "r") as f:
         return [f.strip() for f in f.readlines()]
 
 

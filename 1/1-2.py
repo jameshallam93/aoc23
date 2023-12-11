@@ -18,7 +18,7 @@ def get_alpha_regex():
 
 
 def get_input():
-    with open("one.txt", "r") as f:
+    with open("1.txt", "r") as f:
         return f.read().splitlines()
 
 

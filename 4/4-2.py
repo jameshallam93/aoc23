@@ -1,5 +1,5 @@
 def get_input():
-    with open("four.txt", "r") as f:
+    with open("4.txt", "r") as f:
         return [l.strip().split("\n") for l in f.readlines() if l != ""]
 
 
